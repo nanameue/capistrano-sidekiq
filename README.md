@@ -4,6 +4,11 @@
 
 Sidekiq integration for Capistrano
 
+## :exclamation: :exclamation: :exclamation: Forked for multi process patch :exclamation: :exclamation: :exclamation:
+
+In order to support multiple processes, we want to use the changes provided here: https://github.com/seuros/capistrano-sidekiq/pull/308
+However Repo owner seems to have gone rogue so looks like it'll never happen.
+
 ## Installation
 
     gem 'capistrano-sidekiq', group: :development
